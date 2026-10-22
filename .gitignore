@@ -1,0 +1,88 @@
+# Unity project caches and generated build output. The ** prefix is needed
+# because the Unity project is stored inside the Question 2 subdirectory.
+.utmp/
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+*.log
+
+# Blender backup files imported by Unity do not need to be committed.
+*.blend1
+*.blend1.meta
+
+# Large or potentially sensitive Unity-generated captures.
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings/
+
+# Optional Asset Store tools.
+# **/[Aa]ssets/AssetStoreTools*
+
+# IDE and editor-generated files.
+**/[Aa]ssets/Plugins/Editor/JetBrains*
+*.DotSettings.user
+.vs/
+.vscode/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity-generated metadata and crash files.
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+mono_crash.*
+
+# Packaged Unity builds.
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# Crashlytics and Test Runner output.
+crashlytics-build.properties
+InitTestScene*.unity*
+**/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Addressables-generated content.
+**/ServerData/
+**/[Aa]ssets/StreamingAssets/aa*
+**/[Aa]ssets/AddressableAssetsData/link.xml*
+**/[Aa]ssets/Addressables_Temp*
+**/[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# Visual Scripting-generated databases.
+**/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+**/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+**/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/
+**/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+
+# Other Unity-generated caches.
+**/UIElementsSchema/
+**/[Aa]ssets/[Ss]ceneDependencyCache*
+
+# macOS and Python development artifacts used elsewhere in the assignment.
+.DS_Store
+**/.DS_Store
+**/__pycache__/
+*.py[cod]
