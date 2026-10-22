@@ -2,7 +2,7 @@
 
 **Author:** Harihar Prasad
 
-This repository contains my solutions for Assignment 4, including the written Kalman filter answers, Python implementations for Questions 1e and 1f, their output plots, and the Unity game for Question 2.
+This repository contains my solutions for Assignment 4!
 
 ## Running Question 1
 
@@ -22,4 +22,4 @@ Each script saves its output plot inside the `Question 1` folder.
 3. Open `Assets/Scenes/SampleScene.unity`.
 4. Press **Play**, then select **START** to enable gravity and player controls.
 
-Use **WASD** or the **arrow keys** to move and **Space** to jump.
+Use **WASD** or the **arrow keys** to move and **Space** to jump :))
